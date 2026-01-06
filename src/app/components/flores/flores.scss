@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff6f8;
+}
+
+.header {
+  background: #d6336c;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #f8d7da;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #6a1a21;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #d6336c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #6a1a21;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
